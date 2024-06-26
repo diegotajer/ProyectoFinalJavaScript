@@ -1,0 +1,368 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap';
+/*font-family: "Oswald", sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem; /* 40px */
+  font-weight: 500;
+  line-height: 1.2;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+h5 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+.swal2-popup {
+  font-size: 0.5rem;
+  width:400px;
+}
+
+button, select{
+  font-family: "Oswald", sans-serif;  
+font-weight:500;
+font-size: 1rem;
+padding: 0.5rem;
+line-height: 1.2;
+border: 1px solid;
+}
+
+input {
+  font-family: "Oswald", sans-serif;  
+  font-weight:500;
+  font-size: 1rem;
+  padding: 0.5rem;
+  line-height: 1.2;
+  border: 1px solid;
+}
+
+header  {
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: none;
+  color: black;
+}
+
+.logo img {
+  height: 65px;
+}
+
+
+/* BARRA DE NAVEGACION*/
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: gainsboro;
+  border-radius: 4px;
+}
+
+/* FOOTER*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+
+
+/* CARD */
+.funcionesMostradas {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #eee;
+}
+
+.agregar-carrito {
+  padding: 10px;
+  border-radius:50%;
+}
+
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-product {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  color: #191919;
+  padding: 10px;
+}
+
+
+.card-product button {
+  padding: 10px;
+  border: 1px solid #191919;
+  color: #191919;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.card-product button:hover {
+  background-color: #191919;
+  color: #eee;
+  box-shadow: 1px 1px 5px #474747;
+
+}
+
+
+
+.card:nth-child(even) {
+  background-color: rgb(218, 255, 244);
+}
+
+
+
+
+
+.card-carrito {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+
+/*Primera línea*/
+
+.selectores {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.opcionesVisuales {
+  display:flex;
+  justify-content:flex-end;
+}
+
+
+.opcionVisual{
+  margin:10px;
+}
+
+#registrarse
+{
+  margin-left: 20px;
+}
+
+.registro{
+  align-self: center;
+}
+
+.carritoEntero {
+  border-color: black;
+  margin-top: 20px;
+}
+
+.opcionesCarrito{
+  margin: 20px;
+  padding:10px;
+}
+
+#guardarNombre{
+ 
+  padding:10px;
+}
+
+.primeraLinea{
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+/*Carrito*/
+
+.opcionesCarrito:hover{ background-color: black;
+color:#eee;
+cursor: pointer;}
+
+#Carrito {
+  margin: 20px;
+}
+
+.eliminar-carrito{
+  font-size: smaller;
+  padding:5px;
+  border-radius: 50%;
+}
+
+
+
+.totalCarrito{
+  margin-left: 20px;
+}
+
+#tituloCarrito, #bienvenido {
+  margin-left:20px;
+}
+
+/*CONTACTO*/
+
+.textarea{font-family: "Oswald", sans-serif;}
+
+.formu {display:flex;
+justify-content: center;}
+
+.letraFormulario{text-align: center;
+margin:50px;}
+
+.letraFormulario{display:none;}
+
+form{margin:20px;}
+
+.formulario {
+  color: white;
+  border: 2px solid black;
+  width: fit-content;
+  border-radius: 10px;
+  background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 30px;
+}
+.formulario input[type=text] {
+  border: 1px solid;
+  border-radius: 5px;
+}
+.formulario input[type=email] {
+  border: 1px solid;
+  border-radius: 5px;
+}
+.formulario select {
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.cuadrito{margin-top: 10px;}
+.formulario textarea {
+  border: 1px solid;
+  border-radius: 5px;
+  padding:5px;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+.formulario input[type=submit] {
+  border: 1px solid;
+  background-color: gray;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+.formulario input[type=submit]:hover {
+  background-color: black;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .opcionesVisuales {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left:20px;
+  }
+
+  #ocultarCarrito{
+    display:none;
+  }
+.precioUnitario {
+  display:none;
+}
+.capacidadSala{
+  display:none;
+}
+
+#linkContacto{
+  display:none;
+}
+
+#linkHome{display:none;}
+
+/* .nav-links{display:none;}
+.navbar{justify-content:center;} */
+
+.letraFormulario{display:block;}
+
+}
+

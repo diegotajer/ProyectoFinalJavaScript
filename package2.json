@@ -1,0 +1,92 @@
+[
+    {
+      "id": "handmaiden",
+      "pelicula": "The Handmaiden",
+      "horario": 16,
+      "dia": "2024-06-30",
+      "genero": "policial",
+      "capacidad": 10,
+      "img": "https://i.pinimg.com/564x/33/61/89/336189ae230e08d4782e5830ca5294ad.jpg",
+      "price": 3000
+    },
+    {
+      "id": "nobody",
+      "pelicula": "Nobody Knows",
+      "horario": 20,
+      "genero": "drama",
+      "capacidad": 21,
+      "img": "https://m.media-amazon.com/images/M/MV5BMjE5ZTA2YzQtM2M0My00OGNkLWE2YTAtYzA3YWE2YTQ0OWJmXkEyXkFqcGdeQXVyMTI3ODAyMzE2._V1_.jpg",
+      "dia": "2024-06-12",
+      "price": 5000
+    },
+    {
+      "id": "drive",
+      "pelicula": "Drive my Car",
+      "horario": 18,
+      "genero": "comedia",
+      "capacidad": 12,
+      "img": "https://pics.filmaffinity.com/doraibu_mai_ka-916845386-large.jpg",
+      "dia": "2024-06-01",
+      "price": 7000
+    },
+    {
+      "id": "monster",
+      "pelicula": "Inside the Yellow Cocoon Shell",
+      "horario": 19,
+      "genero": "drama",
+      "capacidad": 12,
+      "img": "https://m.media-amazon.com/images/M/MV5BOGJmNGM1OTItM2VlNC00ODgyLWE3OGUtNWQyOWU5OWI3YTEyXkEyXkFqcGdeQXVyMTY4MjUxMzgz._V1_.jpg",
+      "dia": "2024-06-29",
+      "price": 8000
+    },
+    {
+      "id": "perfect",
+      "pelicula": "Perfect Days",
+      "genero": "comedia",
+      "capacidad": 30,
+      "img": "https://www.aceprensa.com/wp-content/uploads/2024/01/perfect-days.jpg",
+      "horario": 20,
+      "dia": "2024-06-28",
+      "price": 5000
+    },
+  {
+    "id": "evil",
+    "pelicula": "Evil does not exist",
+    "genero": "drama",
+    "capacidad": 10,
+    "img": "https://m.media-amazon.com/images/M/MV5BMjkwYWQwNjItNTY0OC00YTcwLWIwZDktMTAwMjEzOTlmYTMxXkEyXkFqcGdeQXVyNjQyMTI3MTM@._V1_.jpg",
+    "horario": 18,
+    "dia": "2024-06-01",
+    "price": 10000
+  },
+  {
+    "id": "passion",
+    "pelicula": "Only The River Flows",
+    "genero": "policial",
+    "capacidad": 100,
+    "img": "https://pics.filmaffinity.com/El_silencio_del_agua-742867664-large.jpg",
+    "horario": 19,
+    "dia": "2024-07-20",
+    "price": 8000
+  },
+  {
+    "id": "zen",
+    "pelicula": "The Zen Diary",
+    "horario": 16,
+    "dia": "2024-07-30",
+    "genero": "comedia",
+    "capacidad": 19,
+    "img": "https://s3picturehouses.s3.eu-central-1.amazonaws.com/cinema/ph_17043791736596c325589ab.jpg",
+    "price": 3000
+  },
+  {
+    "id": "broken",
+    "pelicula": "My Broken Mariko",
+    "horario": 16,
+    "dia": "2024-07-01",
+    "genero": "drama",
+    "capacidad": 19,
+    "img": "https://pics.filmaffinity.com/My_Broken_Mariko-724245480-large.jpg",
+    "price": 6000
+  }
+]
