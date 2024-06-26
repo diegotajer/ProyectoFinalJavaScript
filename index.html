@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página del Microcine Kurosawa">
+    <meta name="keywords" content="cine oriental, cine de culto, microcine">
+    <link rel="stylesheet" href="estilos2/estilos2.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Microcine Kurosawa</title>
+</head>
+<body>
+
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+            <img src="img2/logo_mejor.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+          <li id="linkContacto"><a href="#">Home</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+            
+        </ul>
+    </nav>   
+
+    </header> 
+
+
+<main>
+    <h1>Cartelera</h1>
+
+
+    
+
+     <section class="primeraLinea">
+      
+      <div class="opcionVisual" id="registrarse">
+        <label for="nombre">Usuario:</label>
+        <input class="ponerNombre" type="text" id="nombre" name="nombre"></input>
+        <button id="guardarNombre">Guardar</button>
+      </div>
+      
+      <div class="nombreComprador" id="bienvenido">
+      </div>
+  
+
+ 
+      <section id="opcionesVisuales" class="opcionesVisuales">
+      <div class = "opcionVisual">
+        <label for="Promos">Promociones:</label>
+        <select id="promociones">
+          <option value="">Elegir opción</option>
+          <option value="lanacion">Club La Nación </option>
+          <option value="movistar">Club Movistar</option>
+          <option value="sinPromo">Precio normal</option>
+        </select>
+        </div>
+
+    <div class = "opcionVisual">
+    <label for="Ordenar">Ordenar por:</label>
+
+    <select id="ordenarPor">
+      <option value="">Elegir opción</option>
+      <option value="precio">Precio </option>
+      <option value="fecha">Fecha</option>
+    </select>
+    </div>
+
+    <div class = "opcionVisual">
+    <label for="Ordenar">Filtrar por género:</label>
+
+    <select id="generos">
+      <option value="">Elegir opción</option>
+      <option value="drama">Drama </option>
+      <option value="comedia">Comedia</option>
+      <option value="policial">Policial </option>
+      <option value="ver todo">Ver todo</option>
+    </select>
+    </div>
+
+</section>
+</section>
+
+    <section class="carritoEntero">
+    <h5 id="tituloCarrito"> Carrito de compras </h5>
+
+    <button class = "opcionesCarrito" id = "resetearCarrito">Vaciar carrito</button>
+    <button class = "opcionesCarrito" id = "ocultarCarrito"> Ver/Ocultar carrito</button>
+    <button class = "opcionesCarrito" id = "pagar"> Pagar</button>
+    <div id="carritoDeCompras" class="Carrito">
+    </div>
+    <div class="totalCarrito" id="total">
+    </div>
+  </section>
+
+ 
+
+    <section id="funcionesMostradas" class="funcionesMostradas">
+    </section>
+
+</main>
+
+<footer>
+  <div class="footer-content">
+      <p>&copy; 2024 Microcine Kurosawa. Todos los derechos reservados</p>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="main2.js"></script> 
+</body>
+
+
+</html>
